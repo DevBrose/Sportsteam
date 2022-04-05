@@ -1,3 +1,8 @@
+main 
+    {background-color: #0f1626;
+}
+
+
 h1  {
 
 
@@ -59,10 +64,17 @@ h2 {
 
     width: 240px;
     height: 70px;
-    
     border-radius: 10px;
     border: none;
+    background-color:rgba(245, 238, 238, 0.842);
+    transition: 1s;
 
+
+}
+
+.team__btn:hover {
+    background-color: rgb(180, 15, 56);
+    transition: 1s;
 
 }
 
@@ -87,7 +99,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(180, 15, 56);
 
 
 }
@@ -124,7 +136,15 @@ h2 {
     margin: 10px;
     border-radius: 10px;
     border: none;
+    background-color:rgba(245, 238, 238, 0.842);
+    transition: 1s;
 
+
+}
+
+.tickets:hover {
+    background-color: rgb(180, 15, 56);
+    transition: 1s;
 
 }
 
@@ -135,6 +155,8 @@ h2 {
 }
 
 .results {
+
+    color: white;
 
 
 }
