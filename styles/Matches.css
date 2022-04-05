@@ -1,0 +1,149 @@
+h1  {
+
+
+}
+
+
+h2 {
+
+
+}
+
+
+
+
+
+.Matches {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 30px;
+    max-width: 100%;
+    margin: auto;
+
+
+}
+
+.Matches > h1 {
+
+
+}
+
+.Female__cont {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.hugging {
+
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+
+
+}
+
+.btn__cont {
+
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__btn {
+
+    width: 240px;
+    height: 70px;
+    
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.team__btn > a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.upcoming-matches__cont {
+
+
+}
+
+.card {
+
+    width: 500px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+
+
+}
+
+.logos  {
+
+    width: 70px;
+    height: 90px;
+    margin: 15px;
+
+
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+
+
+}
+
+.match > h2 {
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+
+.tickets {
+    width: 500px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.tickets > a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.results {
+
+
+}
+
+
+
+
+
+
+
+
+
