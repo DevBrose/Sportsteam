@@ -199,7 +199,6 @@
     max-width: 40vh;
     height: 50vh;
     text-align: center;
-    background-color: white;
     grid-area: 4/ 3/span 1/span 1;
 }
 @media screen and (max-width:600px) {
@@ -208,4 +207,15 @@
         height: 15vh;
     }
 }
+}
+.players__btn{
+    border-style: none;
+    background-color:  #0f1626;
+    color: red;
+}
+.men{
+    color: red;
+}
+.players__btn:hover{
+    background-color: white;
 }

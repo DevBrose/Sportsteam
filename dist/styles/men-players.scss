@@ -1,2 +1,17 @@
 @import 'nav';
 @import 'body';
+
+
+.men-players{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 10px;
+    margin-top: 10%;
+    color: red;
+}
+@media screen and (max-width:600px) {
+    .men-players{
+        gap: 5%;
+    }
+}
