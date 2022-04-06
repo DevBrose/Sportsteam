@@ -30,10 +30,21 @@ h2 {
 
 }
 
-.Matches > h1 {
+.Matches__title {
 
+    width: 500px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(180, 15, 56);
 
 }
+
+
+
 
 .Female__cont {
     display: flex;
@@ -48,6 +59,7 @@ h2 {
     height: 250px;
     margin: 10px;
     border-radius: 10px;
+    overflow: hidden;
 
 
 }
