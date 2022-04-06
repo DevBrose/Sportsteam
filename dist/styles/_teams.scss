@@ -1,0 +1,82 @@
+.teams{
+    display: flex;
+}
+@media screen and (max-width:600px){
+    .teams{
+        display: inline-block;
+    }
+}
+.women{
+    max-width: 55vh;
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 5%;
+}
+.women__foto{
+    max-width: 55vh;
+    height: 40vh;
+}
+@media screen and (max-width:600px) {
+    .women{
+    margin-left: 0px;
+    max-width: 30vh;
+    height: 20vh;
+    }
+}
+@media screen and (max-width:600px) {
+    .women__foto{
+        margin-left: 0px;
+        max-width: 30vh;
+        height: 20vh;
+    }
+}
+.teams__btn{
+    border-style: none;
+    background-color:  #0f1626;
+    color: red;
+}
+.title{
+    color: red;
+    font-family: 'open sans', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 7%;
+}
+.title:hover{
+    background-color: white;
+}
+@media screen and (max-width:600px) {
+    .title{
+    font-size: 20px;
+    margin-left: 0px;
+    }
+}
+.men{
+    max-width: 55vh;
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.men__foto{
+    max-width: 55vh;
+    height: 40vh;
+    border-radius: 5%;
+}
+@media screen and (max-width:600px) {
+    .men{
+        margin-left: 0%;
+        max-width: 30vh;
+        height: 20vh;
+        margin-top: 25%;
+    }
+}
+@media screen and (max-width:600px) {
+    .men__foto{
+        margin-left: 0px;
+        max-width: 30vh;
+        height: 20vh;
+    }
+}
