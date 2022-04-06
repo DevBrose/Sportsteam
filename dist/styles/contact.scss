@@ -22,6 +22,12 @@
     margin-top: 5%;
     margin-left: 7%;
 }
+@media screen and (max-width:600px) {
+  .title{
+      margin-left: 0%;
+      font-size: 7px;
+  }
+}
 .info{
     font-family: 'open sans', sans-serif;
     font-style: normal;
@@ -29,9 +35,19 @@
     color: white;
     margin-left: 7%;
 }
-.form {
+form {
     margin-top: 3%;
+    width: 100vh;
+    height: 50vh;
   }
+  @media screen and (max-width:600px) {
+    form{
+        width: 20vh;
+        height: 25vh;
+        margin-left: 0%;
+        font-size: 7px;
+    }
+}
   
   .input-field {
     font-family: 'open sans', sans-serif;
@@ -96,7 +112,7 @@
     .address{
         width: 20vh;
         height: 25vh;
-        margin-left: 6%;
+        margin-left: 10%;
         font-size: 7px;
     }
 }
