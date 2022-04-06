@@ -1,0 +1,185 @@
+main 
+    {background-color: #0f1626;
+    margin-bottom: 50px;
+}
+
+
+
+.Matches {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 30px;
+    max-width: 100%;
+    margin: auto;
+
+
+}
+
+.Matches__title {
+
+    width: 500px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(180, 15, 56);
+
+}
+
+
+
+
+.Female__cont {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.hugging {
+
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.btn__cont {
+
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__btn {
+
+    width: 240px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(245, 238, 238, 0.842);
+    transition: 1s;
+
+
+}
+
+.team__btn:hover {
+    background-color: rgb(180, 15, 56);
+    transition: 1s;
+
+}
+
+.team__btn > a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .upcoming-matches__cont {
+
+
+} */
+
+.card {
+
+    width: 500px;
+    height: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(180, 15, 56);
+
+
+}
+
+.logos  {
+
+    width: 70px;
+    height: 90px;
+    margin: 15px;
+
+
+}
+
+.logos-round {
+
+    width: 120px;
+    height: 90px;
+    margin: 15px;
+
+
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+
+
+}
+
+.match > h2 {
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+
+.tickets {
+    width: 500px;
+    height: 70px;
+    margin: 10px;
+    
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(245, 238, 238, 0.842);
+    transition: 1s;
+
+
+}
+
+.tickets:hover {
+    background-color: rgb(180, 15, 56);
+    transition: 1s;
+
+}
+
+.tickets > a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.margin-bottom {
+
+    margin-bottom: 30px;
+}
+
+.results {
+
+    color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
