@@ -1,5 +1,6 @@
 main 
     {background-color: #0f1626;
+    margin-bottom: 50px;
 }
 
 
@@ -111,6 +112,15 @@ main
 
 }
 
+.logos-round {
+
+    width: 120px;
+    height: 90px;
+    margin: 15px;
+
+
+}
+
 .match {
     display: flex;
     flex-direction: column;
@@ -132,6 +142,7 @@ main
     width: 500px;
     height: 70px;
     margin: 10px;
+    
     border-radius: 10px;
     border: none;
     background-color:rgba(245, 238, 238, 0.842);
@@ -150,6 +161,11 @@ main
 
     color: white;
     text-decoration: none;
+}
+
+.margin-bottom {
+
+    margin-bottom: 30px;
 }
 
 .results {
