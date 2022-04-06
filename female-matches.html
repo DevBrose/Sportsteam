@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matches</title>
-    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./styles/main.min.css"/>
     <link rel="stylesheet" href="./styles/Matches.css"/>
-    <link rel="stylesheet" href="../styles/subpage_imageheader.css">
+  
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,wght@0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
@@ -15,13 +15,14 @@
 </head>
 <body>
     <header class="header_container">
-        <a class="logo" href="#">FC Rosengården</a>        
+        <a class="logo" href="#">FC Rosengård</a>        
         <nav>
             <div class="topnav" id="myTopnav">
-                <a href="#home">Home</a>
-                <a href="#teams">Teams</a>
-                <a href="#">Matches & Tickets</a>
-                <a href="#">Our History</a>
+                <a href="./home.html">Home</a>
+                <a href="./teams.html">Teams</a>
+                <a href="./female-matches.html">Matches</a>
+                <a href="./tickets.html">Tickets</a>
+                <a href="./our history.html">Our History</a>
                 <a href="#">News</a>
                 <a href="#">Contact</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -41,10 +42,10 @@
             <img class="hugging" src="./match-images/kram.png" alt="hugging after goal">
             <div class="btn__cont" >
                 <button class="team__btn">
-                    <a href="./female-matches.html"><h2 class="title">Womens Matches</h2></a>
+                    <a href="./female-matches.html"><h2 >Womens Matches</h2></a>
                 </button>
                 <button class="team__btn">
-                    <a href="./mens-matches.html"><h2 class="title">Mens Matches</h2></a>
+                    <a href="./mens-matches.html"><h2 >Mens Matches</h2></a>
                 </button>
             </div>  
         </div>
@@ -54,7 +55,7 @@
                 <img class="logos"  src="./match-images/Djurgårdens_IF_logo.png" alt="djurgården">
                 <div class="match">
                     <h3>Djurgårdens IF - FC Rosengård</h3>
-                    <h3>15/4 KL 17:00</h3>
+                    <h3>15 April KL 17:00</h3>
 
                 </div>
                 <img class="logos" src="./match-images/FC_Rosengård_logo.png" alt="rosengård">
@@ -93,5 +94,16 @@
 
         
     </main>
+
+    <footer>
+        <div class="navbar" id="myNavbar">
+            <a href="https://www.facebook.com/" target="-blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" target="-blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="-blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com/" target="-blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>
