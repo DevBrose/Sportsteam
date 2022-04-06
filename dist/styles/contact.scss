@@ -39,6 +39,7 @@ form {
     margin-top: 3%;
     width: 100vh;
     height: 50vh;
+    background-color: red;
   }
   @media screen and (max-width:600px) {
     form{
@@ -55,7 +56,6 @@ form {
     font-weight: normal;
     font-size: 16px;
     line-height: 40px;
-    /* or 275% */
     color: white;
     border-color: #bdc1c2;
     border-top: none;
